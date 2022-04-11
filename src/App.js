@@ -6,7 +6,7 @@ function App(props) {
   return <>
     <h1>{hello}</h1>
     <div>
-      <AddOne/>
+      <AddOne tip={<h2>This is how you can pass props from your app component to other components</h2>}/>
     </div>
   </>
 }
